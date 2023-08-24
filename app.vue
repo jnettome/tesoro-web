@@ -109,3 +109,19 @@ main {
   }
 }
 </style>
+
+
+<script setup>
+
+
+// - RECORDS: é só um cartao de visitas, com links para fora
+//   eh tipo o portfolio
+useHead({
+  title: 'TESORO',
+  // description: 'Álbuns, compilações, eps e singles dos artistas assinados',
+  htmlAttrs: {
+    // lang: 'pt'
+    // class: 'dark-mode'
+  }
+})
+</script>
