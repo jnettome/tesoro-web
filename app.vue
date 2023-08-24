@@ -122,6 +122,16 @@ useHead({
   htmlAttrs: {
     // lang: 'pt'
     // class: 'dark-mode'
-  }
+  },
 })
+
+useSeoMeta({
+  title: 'TESORO',
+  ogTitle: 'TESORO',
+  description: 'tesoro.bar',
+  ogDescription: 'tesoro.bar',
+  ogImage: 'https://tesoro.bar/android-chrome-192x192.png',
+  twitterCard: 'summary_large_image',
+})
+
 </script>
